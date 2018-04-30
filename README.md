@@ -13,9 +13,9 @@
 This approach had a drawback, as the course description are designed to be different from any of the other courses. Due to this the similarity scores between the documents were very low. This can be observed from the below plot. 
 
 	* histogram plot of similarity score between different courses.  
-	![alt text](https://github.com/pratikshrivastava/NA_PROJECT_SP2018/blob/master/images/hist_sim_measure.png)
+![alt text](https://github.com/pratikshrivastava/NA_PROJECT_SP2018/blob/master/images/hist_sim_measure.png)
 	* Network Plot
-	![alt text](https://github.com/pratikshrivastava/NA_PROJECT_SP2018/blob/master/images/network_sim.png)
+![alt text](https://github.com/pratikshrivastava/NA_PROJECT_SP2018/blob/master/images/network_sim.png)
 
 2. **Entity Based:** We used a Google NLP api, for retrieveing the specific noun, pro-noun etc from the course description which helped us to define the entities in them. Once we got the entities, we tried manually classify those entities into categories. 
 
