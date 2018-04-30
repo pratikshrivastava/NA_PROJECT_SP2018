@@ -9,19 +9,12 @@
 
 ## Approaches taken. 
 1. **Cosine similarity:** We used the gensim library of python for creating the corpus, generating the simliarity scores between the different courses. Once, we had the cosine similiarity scores we used networkx for creating the graphs between the nodes whose scores where greater than the set threshold. 
-	* This approach had a drawback, as the course description are designed to be different from any of the other courses. Due to this the similarity scores between the documents were very low. This can be observed from the below plot. 
- 	* histogram plot of similarity score between different courses.  
+
+This approach had a drawback, as the course description are designed to be different from any of the other courses. Due to this the similarity scores between the documents were very low. This can be observed from the below plot. 
+
+	* histogram plot of similarity score between different courses.  
 	![alt text](https://github.com/pratikshrivastava/NA_PROJECT_SP2018/blob/master/images/hist_sim_measure.png)
-	* Network Plhttps://github.com/pratikshrivastava/NA_PROJECT_SP2018/blob/master/images/network_sim.png)
+	* Network Plot(https://github.com/pratikshrivastava/NA_PROJECT_SP2018/blob/master/images/network_sim.png)
 
 2. **Entity Based:** We used a Google NLP api, for retrieveing the specific noun, pro-noun etc from the course description which helped us to define the entities in them. Once we got the entities, we tried manually classify those entities into categories. 
 
-## Creating CWL graph. 
-
-* Once the CWL workflow file is created. 
-* Use http://view.commonwl.org for generating the CWL graph, using the github link for the workflow file.
-* YesWorkflow Graph: 
-![alt text](https://github.com/idaks/cwl_modeling/blob/master/yw_cwl_modeling/yw2cwl_parser/example_sql/C3_C4_map_present_NA/CWL_GRAPH.jpg "YesWorkflow Graph")
-
-* CWL Graph:
-![alt text](https://github.com/idaks/cwl_modeling/blob/master/yw_cwl_modeling/yw2cwl_parser/example_sql/C3_C4_map_present_NA/CWL_GRAPH.jpg "CWL Graph")
