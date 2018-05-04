@@ -39,7 +39,13 @@ This approach had a drawback, as the course description are designed to be diffe
 
 ![alt text](https://github.com/pratikshrivastava/NA_PROJECT_SP2018/blob/master/images/network_sim.png)
 
-###
+
+
+## Analysis: 
+
+### Comparing the suggested electives with the communitites. 
+
+
 
 
 
